@@ -2,7 +2,7 @@ import { BsGithub } from "react-icons/bs";
 import { CgViewDay, CgWebsite } from "react-icons/cg";
 // import { FaPython } from "react-icons/fa";
 import type { IconType } from "react-icons/lib";
-import { SiPypi, SiDocker } from "react-icons/si";
+// import { SiPypi, SiDocker } from "react-icons/si";
 
 interface FeaturedProjectTypeIconType {
   id: number;
@@ -40,7 +40,7 @@ const FeaturedProjectList: FeaturedProjectType[] = [
       "React",
       "JavaScript",
       "Neo4j",
-      "Selenium"
+      "Selenium",
     ],
     icons: [
       {
@@ -65,7 +65,10 @@ const FeaturedProjectList: FeaturedProjectType[] = [
     description:
       "This Tracker allows users to time their activities using a simple interface. The tracker is written in JavaScript and uses HTML/CSS (This project is still in development).",
     images: ["/giphy (3).gif"],
-    tags: ["JavaScript", "HTML/CSS"],
+    tags: [
+    "JavaScript", 
+    "HTML/CSS",
+  ],
     icons: [
       {
         id: 0,
@@ -94,7 +97,15 @@ const FeaturedProjectList: FeaturedProjectType[] = [
     description:
       "A reveresed engineered Desmos where a free image comparasion AI with an api compatible with python was used. We then built the frontend in HTML/CSS and node.js to run Javascript to then converted it to a webapp. Also using python, we generated a dataset of graphs with random offsets to mimic the offsets the user will most likely put. Clarifai then compares the graph to the dataset and gives us a list of which function the graph is most likely to be, and we present that to the user.",
     images: ["/giphy (4).gif"],
-    tags: ["Python", "HTML/CSS", "JavaScript", "Clarifai API", "Desmos", "Node.js", "Pyqt5",],
+    tags: [
+    "Python", 
+    "HTML/CSS", 
+    "JavaScript", 
+    "Clarifai API", 
+    "Desmos", 
+    "Node.js", 
+    "Pyqt5",
+  ],
     icons: [
       {
         id: 0,

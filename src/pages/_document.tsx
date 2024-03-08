@@ -65,10 +65,7 @@ class MyDocument extends Document {
           <meta name="format-detection" content="telephone=no" />
           <meta name="mobile-web-app-capable" content="yes" />
           <meta name="theme-color" content="#FFFFFF" />
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="196x196"
+          <link rel="icon" type="image/png" sizes="196x196"
           />
         
           <meta name="/apple-mobile-web-app-capable" content="yes" />

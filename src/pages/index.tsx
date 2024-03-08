@@ -6,55 +6,55 @@ import {
   Spacer,
   Text,
   useBreakpointValue,
-  Table,
-  Tr,
-  Thead,
-  Th,
-  Tbody,
-  Td,
+  // Table,
+  // Tr,
+  // Thead,
+  // Th,
+  // Tbody,
+  // Td,
   Icon,
   useColorModeValue,
 } from "@chakra-ui/react";
 import Link from "next/link";
-import { BiVector } from "react-icons/bi";
+// import { BiVector } from "react-icons/bi";
 import { BsArrowRight } from "react-icons/bs";
-import { FaPython } from "react-icons/fa";
+// import { FaPython } from "react-icons/fa";
 import type { IconType } from "react-icons/lib";
-import {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  SiPypi,
-  SiJavascript,
-  SiTypescript,
-  SiRust,
-  SiAmazonaws,
-  SiDeno,
-  SiDocker,
-  SiKubernetes,
-  SiGithubactions,
-  SiTravisci,
-  SiDatadog,
-  SiSolidity,
-  SiStripe,
-  SiCloudflare,
-  SiGnubash,
-  SiGrafana,
-  SiLinux,
-  SiNetlify,
-  SiPaypal,
-  SiPostgresql,
-  SiPrometheus,
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  SiPypy,
-  SiRedis,
-  SiVercel,
-  SiMongodb,
-  SiIbmwatson,
-  SiGooglecloud,
-  SiFirebase,
-  SiGit,
-  SiRailway,
-  SiOpenai,
-} from "react-icons/si";
+// import {
+//   // eslint-disable-next-line @typescript-eslint/no-unused-vars
+//   SiPypi,
+//   SiJavascript,
+//   SiTypescript,
+//   SiRust,
+//   SiAmazonaws,
+//   SiDeno,
+//   SiDocker,
+//   SiKubernetes,
+//   SiGithubactions,
+//   SiTravisci,
+//   SiDatadog,
+//   SiSolidity,
+//   SiStripe,
+//   SiCloudflare,
+//   SiGnubash,
+//   SiGrafana,
+//   SiLinux,
+//   SiNetlify,
+//   SiPaypal,
+//   SiPostgresql,
+//   SiPrometheus,
+//   // eslint-disable-next-line @typescript-eslint/no-unused-vars
+//   SiPypy,
+//   SiRedis,
+//   SiVercel,
+//   SiMongodb,
+//   SiIbmwatson,
+//   SiGooglecloud,
+//   SiFirebase,
+//   SiGit,
+//   SiRailway,
+//   SiOpenai,
+// } from "react-icons/si";
 
 import FeaturedProject from "components/FeaturedProject";
 import ImageBox from "components/ImageBox";
@@ -130,17 +130,20 @@ const Home = () => {
           </Heading>
           <Text marginTop={{ base: 3, md: 5 }} fontSize="xl">
             Hi I&apos;m Joshua Cancio, a George Mason Student and an aspiring ACS major.
+
           </Text>
           <Text marginTop={{ base: 1, md: 3 }} fontSize="xl">
             I mainly started programming as a hobby but after making projects
             and learning through youtube, I&apos;ve grown to adore it!
           </Text>
           <Text marginTop={{ base: 1, md: 3 }} fontSize="xl">
-            I&apos;m passionate about Financial Technology, Cryptocurrency, AI Research, PC Hardware, Web Development and
+            I&apos;m passionate about Financial Technology, Cryptocurrency, AI 
+            Research, PC Hardware, Web Development and
             Music!
           </Text>
           <Text marginTop={{ base: 1, md: 3 }} fontSize="xl">
             At home I love playing basketball and volleyball, playing piano and saxophone, cooking, and spending time with family.
+            
           </Text>
           <Link href="/about" passHref>
             <ThemedButton top={3}>Read More</ThemedButton>
@@ -229,7 +232,6 @@ const Home = () => {
           </Box>
         </Flex>
       </Flex>
-     
       <Flex
         color="white"
         bg={bl}

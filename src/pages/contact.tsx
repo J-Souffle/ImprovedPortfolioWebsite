@@ -93,17 +93,9 @@ const Contact = () => {
       </Heading>
       <Flex direction={{ base: "column", md: "row" }} p={{ base: 1, md: 8 }}>
         <Flex w={{ base: "100%", md: "50%" }} direction="column">
-          <IconWrap
-            text="Discord"
-            icon={SiDiscord}
-            color="#5865F2"
-            url=""
+          <IconWrap text="Discord" icon={SiDiscord} color="#5865F2" url=""
           />
-          <IconWrap
-            text="Keybase"
-            icon={FaKeybase}
-            color="#ff6f21"
-            url=""
+          <IconWrap text="Keybase" icon={FaKeybase} color="#ff6f21" url=""
           />
           <IconWrap
             text="Twitter"

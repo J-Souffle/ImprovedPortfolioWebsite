@@ -12,9 +12,9 @@ import {
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 
-import EnhancedProject from "components/EnhancedProject";
+// import EnhancedProject from "components/EnhancedProject";
 import GithubProject from "components/GithubProject";
-import MoreProjectList from "data/more_projects";
+// import MoreProjectList from "data/more_projects";
 
 const Projects = () => {
   const bl = useColorModeValue("brand.400", "brand.600");
@@ -56,10 +56,9 @@ const Projects = () => {
         </Alert>
       </Box>
       <Heading as="h2" size="xl">
-        <b><Text>Coming Soon!</Text></b>
+        <Text><b>Coming Soon!</b></Text>
       
       </Heading>
-      
       <Heading as="h2" size="xl">
         <Text
           as="span"

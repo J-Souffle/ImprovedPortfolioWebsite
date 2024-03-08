@@ -10,7 +10,7 @@ import {
 import type { NextRouter } from "next/router";
 import { useRouter } from "next/router";
 import type { IconType } from "react-icons";
-import { BsTwitter, BsLinkedin, BsReddit, BsGithub } from "react-icons/bs";
+import { BsTwitter, BsLinkedin, BsGithub } from "react-icons/bs";
 
 interface IconWrapProps {
   router: NextRouter;

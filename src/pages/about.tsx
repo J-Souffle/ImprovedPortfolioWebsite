@@ -12,9 +12,9 @@ import Image from "next/image";
 import "react-vertical-timeline-component/style.min.css";
 import type { ReactElement } from "react";
 import { BiCodeAlt } from "react-icons/bi";
-import { FaDiscord, FaRust, FaReact, FaEthereum } from "react-icons/fa";
-import { ImPaintFormat } from "react-icons/im";
-import { SiScratch, SiIbm } from "react-icons/si";
+// import { FaDiscord, FaRust, FaReact, FaEthereum } from "react-icons/fa";
+// import { ImPaintFormat } from "react-icons/im";
+import { SiScratch } from "react-icons/si";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -169,7 +169,6 @@ const About = () => {
             height={320}
             width={320}
           />
-         
         </Box>
       </Flex>
       <Flex alignItems="center" direction="column">
@@ -210,7 +209,7 @@ const About = () => {
           />
 
           <TimelineElement
-            icon={<CHI src="\201510560d50b5bcbf0.png" />}
+            icon={<CHI src="201510560d50b5bcbf0.png" />}
             location="Fairfax, VA"
             bg="#ff9bd3"
             heading="Computer Science Classes"
@@ -225,7 +224,6 @@ const About = () => {
             date="2021"
             description="I participated in an opportunity to learn about artificial intelligence and the increasingly important role of advancing and protecting our nation through cybersecurity. The camp went over Data and Statistics for AI, Programming Techniques with Python, Machine Learning, and Natural Language Processing (NLP). Guest speakers such as an FBI agent in digital forensics came to talk about their experiences in their field. Additionally, the final project assigned required information throughout the camp to construct an AI-related build to persuade investors to invest in a product. The project winners were my team out of the many other teams that participated submitting an AI powered water filter."
           />
-          
           <TimelineElement
             icon={<CHI src="vasts.png" />}
             location="Hampton, VA"
