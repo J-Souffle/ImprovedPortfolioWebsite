@@ -96,12 +96,12 @@ const FeaturedProjectList: FeaturedProjectType[] = [
     images: ["/giphy (4).gif"],
     tags: [
       "Python",
-     "HTML/CSS",
+      "HTML/CSS",
       "JavaScript",
-     "Clarifai API",
-     "Desmos",
+      "Clarifai API",
+      "Desmos",
       "Node.js",
-     "Pyqt5",
+      "Pyqt5",
    ],
     icons: [
       {
