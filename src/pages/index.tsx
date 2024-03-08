@@ -126,14 +126,13 @@ const Home = () => {
             I mainly started programming as a hobby but after making projects
             and learning through youtube, I&apos;ve grown to adore it!
           </Text>
-          <Text marginTop={{ base: 1, md: 3 }} fontSize="xl"> 
-            I&apos;m passionate about Financial Technology, Cryptocurrency, AI 
-            Research, PC Hardware, Web Development and
-            Music!
+          <Text marginTop={{ base: 1, md: 3 }} fontSize="xl">
+            I&apos;m passionate about Financial Technology, Cryptocurrency, AI
+            Research, PC Hardware, Web Development and Music!
           </Text>
           <Text marginTop={{ base: 1, md: 3 }} fontSize="xl">
-            At home I love playing basketball and volleyball, playing piano and saxophone, cooking, and spending time with family.
-
+            At home I love playing basketball and volleyball, playing piano and
+            saxophone, cooking, and spending time with family.
           </Text>
           <Link href="/about" passHref>
             <ThemedButton top={3}>Read More</ThemedButton>
