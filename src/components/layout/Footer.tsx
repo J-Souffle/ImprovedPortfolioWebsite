@@ -5,8 +5,7 @@ const Footer = () => {
     <Flex as="footer" width="full" align="center">
       <Text>
         {new Date().getFullYear()} -{" "}
-        <Link>
-          Joshua
+        <Link>Joshua
         </Link>
       </Text>
     </Flex>

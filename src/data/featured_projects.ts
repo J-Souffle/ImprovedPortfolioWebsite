@@ -102,10 +102,10 @@ const FeaturedProjectList: FeaturedProjectType[] = [
     "HTML/CSS", 
     "JavaScript", 
     "Clarifai API", 
-    "Desmos", 
+    "Desmos",
     "Node.js", 
     "Pyqt5",
-  ],
+   ],
     icons: [
       {
         id: 0,
@@ -120,7 +120,6 @@ const FeaturedProjectList: FeaturedProjectType[] = [
     ],
     reversed: false,
   },
-  
 ];
 
 export default FeaturedProjectList;

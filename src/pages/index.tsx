@@ -67,16 +67,6 @@ interface IconWrapperProps {
   text: string;
 }
 
-const IconWrapper = ({ icon, text }: IconWrapperProps) => {
-  return (
-    <Tooltip label={text}>
-      <Box margin={1}>
-        <Icon as={icon} h={{ base: 7, md: 10 }} w={{ base: 7, md: 10 }} />
-      </Box>
-    </Tooltip>
-  );
-};
-
 const Home = () => {
   const isSmall = useBreakpointValue({ base: true, md: false });
   const bl = useColorModeValue("brand.400", "brand.600");
@@ -130,7 +120,6 @@ const Home = () => {
           </Heading>
           <Text marginTop={{ base: 3, md: 5 }} fontSize="xl">
             Hi I&apos;m Joshua Cancio, a George Mason Student and an aspiring ACS major.
-
           </Text>
           <Text marginTop={{ base: 1, md: 3 }} fontSize="xl">
             I mainly started programming as a hobby but after making projects
@@ -143,7 +132,6 @@ const Home = () => {
           </Text>
           <Text marginTop={{ base: 1, md: 3 }} fontSize="xl">
             At home I love playing basketball and volleyball, playing piano and saxophone, cooking, and spending time with family.
-            
           </Text>
           <Link href="/about" passHref>
             <ThemedButton top={3}>Read More</ThemedButton>
