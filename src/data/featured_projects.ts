@@ -95,13 +95,13 @@ const FeaturedProjectList: FeaturedProjectType[] = [
       "A reveresed engineered Desmos where a free image comparasion AI with an api compatible with python was used. We then built the frontend in HTML/CSS and node.js to run Javascript to then converted it to a webapp. Also using python, we generated a dataset of graphs with random offsets to mimic the offsets the user will most likely put. Clarifai then compares the graph to the dataset and gives us a list of which function the graph is most likely to be, and we present that to the user.",
     images: ["/giphy (4).gif"],
     tags: [
-    "Python", 
-    "HTML/CSS",
-    "JavaScript",
-    "Clarifai API",
-    "Desmos",
-    "Node.js",
-    "Pyqt5",
+      "Python",
+     "HTML/CSS",
+      "JavaScript",
+     "Clarifai API",
+     "Desmos",
+      "Node.js",
+     "Pyqt5",
    ],
     icons: [
       {
