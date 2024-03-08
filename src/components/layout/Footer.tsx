@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <Flex as="footer" width="full" align="center">
       <Text>
-        {new Date().getFullYear()} - Made with ❤️ by{" "}
+        {new Date().getFullYear()}
         <Link>Joshua</Link>
       </Text>
     </Flex>
