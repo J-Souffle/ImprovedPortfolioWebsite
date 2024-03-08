@@ -56,7 +56,9 @@ const Projects = () => {
         </Alert>
       </Box>
       <Heading as="h2" size="xl">
-        <Text><b>Coming Soon!</b></Text>
+        <Text>
+          <b>Coming Soon!</b>
+        </Text>
       </Heading>
       <Heading as="h2" size="xl">
         <Text
