@@ -102,7 +102,7 @@ const FeaturedProjectList: FeaturedProjectType[] = [
       "Desmos",
       "Node.js",
       "Pyqt5",
-   ],
+    ],
     icons: [
       {
         id: 0,
