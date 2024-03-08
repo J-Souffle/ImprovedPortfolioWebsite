@@ -19,7 +19,7 @@ import Link from "next/link";
 // import { BiVector } from "react-icons/bi";
 import { BsArrowRight } from "react-icons/bs";
 // import { FaPython } from "react-icons/fa";
-import type { IconType } from "react-icons/lib";
+// import type { IconType } from "react-icons/lib";
 // import {
 //   // eslint-disable-next-line @typescript-eslint/no-unused-vars
 //   SiPypi,
@@ -119,20 +119,21 @@ const Home = () => {
             </Text>
           </Heading>
           <Text marginTop={{ base: 3, md: 5 }} fontSize="xl">
-            Hi I&apos;m Joshua Cancio, a George Mason Student and an aspiring ACS major.
-
+            Hi I&apos;m Joshua Cancio, a George Mason Student and an aspiring
+            ACS major.
           </Text>
           <Text marginTop={{ base: 1, md: 3 }} fontSize="xl">
             I mainly started programming as a hobby but after making projects
             and learning through youtube, I&apos;ve grown to adore it!
           </Text>
-          <Text marginTop={{ base: 1, md: 3 }} fontSize="xl"> I&apos;m passionate about Financial Technology, Cryptocurrency, AI 
+          <Text marginTop={{ base: 1, md: 3 }} fontSize="xl"> 
+            I&apos;m passionate about Financial Technology, Cryptocurrency, AI 
             Research, PC Hardware, Web Development and
             Music!
           </Text>
           <Text marginTop={{ base: 1, md: 3 }} fontSize="xl">
             At home I love playing basketball and volleyball, playing piano and saxophone, cooking, and spending time with family.
-            
+
           </Text>
           <Link href="/about" passHref>
             <ThemedButton top={3}>Read More</ThemedButton>
