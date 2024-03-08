@@ -1,7 +1,7 @@
 import {
   Box,
   Heading,
-  Tooltip,
+  // Tooltip,
   Flex,
   Spacer,
   Text,
@@ -12,7 +12,7 @@ import {
   // Th,
   // Tbody,
   // Td,
-  Icon,
+  // Icon,
   useColorModeValue,
 } from "@chakra-ui/react";
 import Link from "next/link";
@@ -62,10 +62,10 @@ import SomeText from "components/SomeText";
 import ThemedButton from "components/ThemedButton";
 import FeaturedProjectList from "data/featured_projects";
 
-interface IconWrapperProps {
-  icon: IconType;
-  text: string;
-}
+// interface IconWrapperProps {
+//   icon: IconType;
+//   text: string;
+// }
 
 const Home = () => {
   const isSmall = useBreakpointValue({ base: true, md: false });
@@ -120,18 +120,19 @@ const Home = () => {
           </Heading>
           <Text marginTop={{ base: 3, md: 5 }} fontSize="xl">
             Hi I&apos;m Joshua Cancio, a George Mason Student and an aspiring ACS major.
+
           </Text>
           <Text marginTop={{ base: 1, md: 3 }} fontSize="xl">
             I mainly started programming as a hobby but after making projects
             and learning through youtube, I&apos;ve grown to adore it!
           </Text>
-          <Text marginTop={{ base: 1, md: 3 }} fontSize="xl">
-            I&apos;m passionate about Financial Technology, Cryptocurrency, AI 
+          <Text marginTop={{ base: 1, md: 3 }} fontSize="xl"> I&apos;m passionate about Financial Technology, Cryptocurrency, AI 
             Research, PC Hardware, Web Development and
             Music!
           </Text>
           <Text marginTop={{ base: 1, md: 3 }} fontSize="xl">
             At home I love playing basketball and volleyball, playing piano and saxophone, cooking, and spending time with family.
+            
           </Text>
           <Link href="/about" passHref>
             <ThemedButton top={3}>Read More</ThemedButton>
