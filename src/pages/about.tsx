@@ -205,7 +205,7 @@ const About = () => {
             bg="#f6ab3c"
             heading="Scratch Game Development"
             date="2015"
-            description="Via School's hour of code and external classes I started making games in scratch. Mostly simple games, this developed an early intrest in code and taught me logical thinking! "
+            description="Via School's hour of code and external classes I started making games in scratch. Mostly simple games, this developed an early interest in code and taught me logical thinking! "
           />
 
           <TimelineElement
